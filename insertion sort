@@ -23,6 +23,7 @@ def sort(impar):
             if impar[p - 1] > impar[p]:
                 impar[p], impar[p - 1] = impar[p - 1], impar[p]
             p -= 1
+            #print(impar) OBSERVAÇÃO, CASO DESEJAR VER O PROCEDIMENTO COMPLETO BASTA RETIRAR O COMENTARIO
 
 sort(impar)
 print(impar)
